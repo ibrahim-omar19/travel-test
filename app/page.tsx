@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main className='min-h-screen w-full bg-gray-200 flex justify-center items-center'>
       <div className='min-h-[50vh] min-w-[50vw] p-5 bg-gray-300'>
+        <p>user Email: {session?.user?.email}</p>
         <button
           className='bg-blue-500 text-white p-2 rounded-md'
           onClick={() =>
